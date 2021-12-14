@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@font-face{
+  font-family:bariol-bold-webfont;
+  src:url(./assets/fontes/bariol-bold-webfont.ttf);
+
+  font-family:bariol-regular-webfont;
+  src:url(./assets/fontes/bariol-regular-webfont.ttf);
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  height:100%;
+}
+body{
+  margin:0;
+  height:100%;
+  background-color:#211F1F;
+  font-family:'bariol-regular-webfont';
+}
+
+#root{
+  height:100%;
+}
